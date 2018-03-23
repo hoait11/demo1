@@ -1,0 +1,17 @@
+8. Làm thể nào để một bạn khác trong Team có thể đẩy code lên remote repo
+Mặc định ban đầu chỉ người tạo repo mới có thể tự do đẩy code lên repo mình tạo. Để một bạn khác có thể đẩy code của mình làm vào remote repo thì có hai cách.
+
+Thêm bạn ấy vào danh sách người dùng được cấp phép đẩy code vào remote repo.
+Bạn kia phải folk ra một repo khác và tự đẩy code lên repo của mình, sau đó tạo pull request về remote repo gốc.
+Ở trên thì cách 2 là cách nâng cao, thường dùng cho các open source project để cộng đồng có thể đóng góp cho một project, mình sẽ bàn đến ở bài học khác. Ở bài này mình chọn cách dễ nhất đó là bạn Minh trưởng nhóm sẽ cấp quyền push code cho các member của mình là Linh và Vũ.
+
+Để có thể cấp quyền cho người dùng khác vào repo của mình trên github các bạn làm như sau
+
+Vào trang chủ repo của mình (Khi đã đăng nhập vào tài khoản tạo ra repo ấy).
+Vào tab settings --> Mở thẻ Collaborators --> Nhập lại mật khẩu nếu bị yêu cầu
+Điền vào ô username hoặc email của team member và nhấn vào nút add.
+Gọi điện thoại nói team member đăng nhập email đã đăng ký với github để chấp thuận yêu cầu.
+Sau khi member kia chấp thuận yêu cầu member đó đã có quyền đẩy code lên repo
+Việc quản lý thành viên trong repo, bạn có thể quản lý trong settings/Collaborators
+
+Tới đây là bạn đã cấp quyền thành công, giờ tiếp theo là chúng ta thử nghiệm đẩy code lên remote repo với tài khoản khác xem nào.
